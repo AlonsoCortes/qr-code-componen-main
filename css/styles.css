@@ -1,0 +1,33 @@
+body {
+    background-color: hsl(212,45%, 89%);
+}
+.tarjeta {
+
+    width: 300px; /* Ancho del contenedor*/
+    background-color: white;/* Color de fondo del contenedor*/
+    padding: 25px;/* Espacio entre elementos */
+    border-radius: 15px;/* Redondeado de esquinas*/
+    position: absolute;/*Definición de pocisionamiento del elemento*/
+    top: 50%;/* Ubicación superior del elemento*/
+    left: 50%;/* Ubicación izquierda del elemento*/
+    transform: translate(-50%, -50%)/* Ajuste del elemento para que aparezca centrado en la ventana del navegador*/
+}
+
+img {
+    width: 100%;/* Ancho de la image, respecto al contenedor*/
+    border-radius: 15px;/*Redondeado de esquinas*/
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /* Fuente*/
+    text-align: center;/*Alineación de los elementos respecto al contenedor*/
+    font-size: 22px;/*Tamaño de la fuente*/
+    color: hsl(218, 44%, 22%);/*Color de fuente*/
+    font-weight: bold;/*Peso de la fuente*/
+}
+p {
+    font-size: 15px;/**/
+    font-weight: 400;/**/
+    text-align: center;/**/
+    color: hsl(216, 15%, 48%);/**/
+}
